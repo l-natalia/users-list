@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import styled from "styled-components";
-import Button from "./Button";
+import Button from "../common/Button";
 import { User } from "@/utils/interfaces";
 import { fetchUsers, openModal } from "@/store/userSlice";
 import { RootState } from "@/store";
-import { AppDispatch } from "../store";
+import { AppDispatch } from "../../store";
 import Link from "next/link";
 import Modal from "./Modal";
 

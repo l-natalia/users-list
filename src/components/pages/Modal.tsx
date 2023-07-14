@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Title from "./Title";
-import Button from "./Button";
+import Title from "../common/Title";
+import Button from "../common/Button";
 import axios from "axios";
 import { AppDispatch, RootState } from "@/store";
 import { useDispatch, useSelector } from "react-redux";

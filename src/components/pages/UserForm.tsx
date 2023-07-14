@@ -1,8 +1,8 @@
 import { useForm } from "react-hook-form";
 import styled from "styled-components";
-import Button from "./Button";
+import Button from "../common/Button";
 import Link from "next/link";
-import Title from "./Title";
+import Title from "../common/Title";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -21,7 +21,7 @@ const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: 300px;
-    margin-top: 50px;
+    margin-top: 30px;
     p {
       color: green;
     }
